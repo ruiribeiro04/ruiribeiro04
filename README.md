@@ -6,14 +6,14 @@
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <img src="https://img.shields.io/badge/42_Porto-000000?style=for-the-badge&logo=42&logoColor=white" />
-  <img src="https://img.shields.io/badge/Location-Braga%2C_PT-lightgrey?style=for-the-badge&logo=googlemaps&logoColor=white" />
+  <img src="https://img.shields.io/badge/Location-Porto%2C_PT-lightgrey?style=for-the-badge&logo=googlemaps&logoColor=white" />
 </p>
 
 ---
 
 ## 👨‍💻 About Me
 
-Software Developer with a strong foundation in **systems programming (C/Unix)** and modern **AI automation (Python/Agentic Stack)**. Currently advancing through the **42 Porto** curriculum — a rigorous, peer-to-peer learning environment focused on C, algorithms, and Unix architecture.
+Software Developer with a strong foundation in **systems programming (C/C++/Unix)** and modern **AI automation (Python/Agentic Stack)**. Currently advancing through the **42 Porto** curriculum — a rigorous, peer-to-peer learning environment focused on C, algorithms, and Unix architecture.
 
 Passionate about **Linux systems**, **network security**, and building **production-grade AI pipelines**. Recently completed certifications in RAG, Generative AI, Agentic AI, and Vector Databases (Qdrant), and shipped a full-stack AI-powered documentation search engine as a capstone project.
 
@@ -25,61 +25,63 @@ Passionate about **Linux systems**, **network security**, and building **product
 
 <p>
   <img src="https://profile.intra.42.fr/assets/42_logo-7dfc9110a5319a308863b96bda33cea995046d1731cebb735e41b16255106c12.svg" alt="42 Logo" width="30px" align="left" />
-  &nbsp; Currently at <strong>Milestone 4 — Graphics & 3D Rendering (Cub3d)</strong>
+  &nbsp; Currently at <strong>Milestone 5 — C++ (CPP Modules)</strong>
 </p>
 
 <br/>
 
 | Milestone | Project | Status |
 |:---------:|---------|:------:|
-| 0 | Libft | ✅ |
-| 1 | [ft_printf](https://github.com/ruiribeiro04/42_ft_printf) | ✅ |
-| 1 | [Get Next Line](https://github.com/ruiribeiro04/42_get_next_line) | ✅ |
-| 1 | Born2beRoot | ✅ |
-| 2 | Exam Rank 02 | ✅ |
-| 2 | [Push_swap](https://github.com/ruiribeiro04/42_push_swap) | ✅ |
-| 2 | [So Long](https://github.com/ruiribeiro04/42_so_long) | ✅ |
-| 3 | Exam Rank 03 | ✅ |
-| 3 | [Philosophers](https://github.com/ruiribeiro04/42_philosophers) | ✅ |
+| 5 | CPP Modules (42-cpp) | 🚧 |
+| 4 | Cub3d | ✅ |
 | 3 | [Minishell](https://github.com/ruiribeiro04/42-minishell) | ✅ |
-| 4 | Cub3d | 🚧 |
+| 3 | [Philosophers](https://github.com/ruiribeiro04/42_philosophers) | ✅ |
+| 3 | Exam Rank 03 | ✅ |
+| 2 | [So Long](https://github.com/ruiribeiro04/42_so_long) | ✅ |
+| 2 | [Push_swap](https://github.com/ruiribeiro04/42_push_swap) | ✅ |
+| 2 | Exam Rank 02 | ✅ |
+| 1 | Born2beRoot | ✅ |
+| 1 | [Get Next Line](https://github.com/ruiribeiro04/42_get_next_line) | ✅ |
+| 1 | [ft_printf](https://github.com/ruiribeiro04/42_ft_printf) | ✅ |
+| 0 | Libft | ✅ |
 
 ---
 
-## 🚀 Portfolio Projects
+## 🚀 Featured Projects
 
-### 🔍 MiniLibX Qdrant Search Engine
-> AI-powered documentation search engine for MiniLibX — capstone for the Qdrant Essential Course
+<details>
+<summary><strong>🔍 MiniLibX Qdrant Search Engine</strong> — AI-powered hybrid search engine for MiniLibX docs &nbsp;·&nbsp; <a href="https://github.com/ruiribeiro04/minilibx-qdrant-search-engine">GitHub</a></summary>
+<br/>
 
-[![Repo](https://img.shields.io/badge/GitHub-minilibx--qdrant--search--engine-181717?style=flat-square&logo=github)](https://github.com/ruiribeiro04/minilibx-qdrant-search-engine)
-
-- **Hybrid Search** — Qdrant collection with dense (BGE-small-en-v1.5), sparse (BM25) and reranking (ColBERT v2) vectors
-- **Dual-mode interface** — Google-style search with AI summary (Search Assist) + full conversational AI agent (AI Mode)
-- **Two LangGraph agents** — lightweight Assist Agent (`gpt-4o-mini`) for concise summaries + full ReAct Agent with 5 RAG tools
+- **Hybrid Search** — Qdrant with dense (BGE-small-en-v1.5), sparse (BM25) & reranking (ColBERT v2)
+- **Dual-mode UI** — Google-style Search Assist + full conversational AI Agent mode
+- **Two LangGraph agents** — lightweight `gpt-4o-mini` Assist Agent + full ReAct Agent with 5 RAG tools
 - **AG-UI protocol** — real-time generative UI cards streamed via `ag-ui-langgraph`
-- **Full-stack** — FastAPI backend · Next.js 16 / React 19 frontend · Zustand · shadcn/ui
-- **Data pipeline** — Jupyter notebook fetching MiniLibX source → LLM-structured docs → Qdrant ingestion
+- **Full-stack** — FastAPI · Next.js 16 / React 19 · Zustand · shadcn/ui
+- **Data pipeline** — Jupyter notebook → LLM-structured docs → Qdrant ingestion
 
----
+</details>
 
-### 🏢 Kariomi — Company Deep Research Module
-> Agentic pipeline for company intelligence reports and personalized pitch guides
+<details>
+<summary><strong>🏢 Kariomi — Company Deep Research Agent</strong> — Agentic pipeline for interview intelligence reports</summary>
+<br/>
 
-- **6-agent team** (Agno framework) — tech stack research, job pattern analysis, sector context, pain point inference, pitch strategy, report generation
-- **Personalized pitch output** — STAR stories, interviewer-type mapping (HR / Tech Lead / PM / CFO), 3 elevator pitch variants
+- **6-agent team** (Agno) — tech stack, job patterns, sector context, pain points, pitch strategy, report generation
+- **Personalized output** — STAR stories, interviewer-type mapping (HR / Tech Lead / PM / CFO), 3 elevator pitch variants
 - **Staged MD/PDF report** with human-confirmation checkpoint before finalization
 
----
+</details>
 
-### 📄 Kariomi-Mini — AI Resume & Cover Letter Tailor
-> Multi-agent AI system that tailors resumes and cover letters to specific job requirements
-
-[![Repo](https://img.shields.io/badge/GitHub-Kariomi--Mini-181717?style=flat-square&logo=github)](https://github.com/ruiribeiro04/Kariomi-Mini/)
+<details>
+<summary><strong>📄 Kariomi-Mini — AI Resume & Cover Letter Tailor</strong> &nbsp;·&nbsp; <a href="https://github.com/ruiribeiro04/Kariomi-Mini/">GitHub</a></summary>
+<br/>
 
 - **Multi-agent pipeline** — Profile Extractor · Job Analyzer · Fit Analyzer · Resume Tailor · Cover Letter Crafter · Reviewer
-- **LangGraph orchestration** — State-managed workflows with Pydantic validation
-- **Privacy by Design** — All data processed in-memory, never persisted to disk
-- **PDF Generation** — Export tailored resumes and cover letters as polished PDFs
+- **LangGraph orchestration** — state-managed workflows with Pydantic validation
+- **Privacy by Design** — all data processed in-memory, never persisted to disk
+- **PDF export** — polished resumes and cover letters ready to send
+
+</details>
 
 ---
 
@@ -87,6 +89,7 @@ Passionate about **Linux systems**, **network security**, and building **product
 
 ### Systems & Low-Level
 ![C](https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Shell Script](https://img.shields.io/badge/Bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
